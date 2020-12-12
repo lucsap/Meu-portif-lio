@@ -14,6 +14,7 @@
     display: none;
 }
 
+
 .links label {
     padding: 10px 0;
     flex-grow: 1;
@@ -26,6 +27,22 @@
 }
 
 .links label:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.links a {
+    padding: 10px 0;
+    text-decoration: none;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 100%;
+    color: #fff;
+}
+
+.links a:hover {
     background-color: rgba(255, 255, 255, .2);
 }
 
