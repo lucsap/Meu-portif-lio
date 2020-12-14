@@ -9,7 +9,7 @@ nav#menu {
     background-color: #475fbf;;
     padding: 10px;
     text-align: right;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 900px;
 }
