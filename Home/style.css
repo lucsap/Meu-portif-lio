@@ -1,12 +1,12 @@
 body {
     font-family: arial;
-    background: url("../imagens/code-html-1500.jpg");
     background-size: 100%;
-    color: #d3c8bb;
+    background-color: black;
+    color: white;
 }
 
 nav#menu {
-    background-color: #475fbf;;
+    background-color: transparent;
     padding: 10px;
     text-align: right;
     position: fixed;
@@ -27,11 +27,52 @@ li {
 
 a {
     padding: 2px 15px;
-    color: #d3c8bb;
     display: inline-block;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: black;
+    color: #00b8e4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#section1 {
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+}
+
+#section2 {
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+#section3 {
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+}
+
+#section4 {
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+}
+
+#section5 {
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    margin: 50px;
+    padding: 0;
+    text-align: center;
 }

@@ -97,36 +97,40 @@
 }
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 #section1 {
-    height: 700px;
+    height: 800px;
     background: blue;
     display: inline-block;
     width: 100%;
 }
 
 #section2 {
-    height: 700px;
+    height: 800px;
     background: pink;
     display: inline-block;
-    width: 100%;
+    
 }
 
 #section3 {
-    height: 700px;
+    height: 800px;
     background: yellow;
     display: inline-block;
     width: 100%;
 }
 
 #section4 {
-    height: 700px;
+    height: 800px;
     background: red;
     display: inline-block;
     width: 100%;
 }
 
 #section5 {
-    height: 700px;
+    height: 800px;
     background: green;
     display: inline-block;
     width: 100%;
