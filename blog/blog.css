@@ -10,10 +10,10 @@
     display: flex;
 }
 
+/*
 .scroll input {
     display: none;
 }
-
 
 .links label {
     padding: 10px 0;
@@ -29,6 +29,7 @@
 .links label:hover {
     background-color: rgba(255, 255, 255, .2);
 }
+*/
 
 .links a {
     padding: 10px 0;
@@ -46,6 +47,7 @@
     background-color: rgba(255, 255, 255, .2);
 }
 
+/*
 .bloco {
     width: 100vw;
     height: 100vh;
@@ -92,4 +94,46 @@
 
 #rd_Contato:checked ~ .sections {
     margin-top: -300vh;
+}
+*/
+
+#section1 {
+    height: 700px;
+    background: blue;
+    display: inline-block;
+    width: 100%;
+}
+
+#section2 {
+    height: 700px;
+    background: pink;
+    display: inline-block;
+    width: 100%;
+}
+
+#section3 {
+    height: 700px;
+    background: yellow;
+    display: inline-block;
+    width: 100%;
+}
+
+#section4 {
+    height: 700px;
+    background: red;
+    display: inline-block;
+    width: 100%;
+}
+
+#section5 {
+    height: 700px;
+    background: green;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    margin: 100px;
+    padding: 0;
+    text-align: center;
 }
