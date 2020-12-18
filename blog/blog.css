@@ -54,10 +54,6 @@
     display: flex;
 }
 
-#Home {
-    background-color: greenyellow;
-}
-
 #Sobre {
     background-color: indigo;
 }
@@ -78,25 +74,22 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .sections {
     transition: all .4s;
 }
 
-#rd_Sobre:checked ~ .sections {
+#rd_Portfólio:checked ~ .sections {
     margin-top: -100vh;
 }
 
-#rd_Portfólio:checked ~ .sections {
+#rd_Blog:checked ~ .sections {
     margin-top: -200vh;
 }
 
-#rd_Blog:checked ~ .sections {
-    margin-top: -300vh;
-}
-
 #rd_Contato:checked ~ .sections {
-    margin-top: -400vh;
+    margin-top: -300vh;
 }
