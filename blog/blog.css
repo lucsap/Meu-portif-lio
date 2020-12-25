@@ -10,27 +10,6 @@
     display: flex;
 }
 
-/*
-.scroll input {
-    display: none;
-}
-
-.links label {
-    padding: 10px 0;
-    flex-grow: 1;
-    cursor: pointer;
-    transition: all .4s;
-    text-align: center;
-    font-family: 'Arial';
-    font-size: 100%;
-    color: #fff;
-}
-
-.links label:hover {
-    background-color: rgba(255, 255, 255, .2);
-}
-*/
-
 .links a {
     padding: 10px 0;
     text-decoration: none;
@@ -46,56 +25,6 @@
 .links a:hover {
     background-color: rgba(255, 255, 255, .2);
 }
-
-/*
-.bloco {
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-#Sobre {
-    background-color: indigo;
-}
-
-#Portfólio {
-    background-color: pink;
-}
-
-#Blog {
-    background-color: gray;
-}
-
-#Contato {
-    background-color: steelblue;
-}
-
-.scroll {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-.sections {
-    transition: all .4s;
-}
-
-#rd_Portfólio:checked ~ .sections {
-    margin-top: -100vh;
-}
-
-#rd_Blog:checked ~ .sections {
-    margin-top: -200vh;
-}
-
-#rd_Contato:checked ~ .sections {
-    margin-top: -300vh;
-}
-*/
 
 html {
     scroll-behavior: smooth;
