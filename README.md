@@ -9,3 +9,18 @@
     1. Teste 3
     1. Teste 4
 5. Teste 5
+
+Lista demarcada:
+
+* Teste
+* Teste
+ * Teste
+* Teste
+
+Lista de Tarefas
+
+- [x] Criar Página Home (Principal)
+- [ ] Criar texto do Sobre
+- [x] Página do Blog
+- [ ] Página do Portfólio
+- [ ] Página de Contato
