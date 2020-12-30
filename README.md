@@ -1,6 +1,6 @@
 # Meu portifólio
 ---
- Projeto de *Site pessoal* ~~para~ **Free Lancer**
+ Projeto de *Site pessoal* ~para~ **Free Lancer**
 
  Lista Numerada:
 
