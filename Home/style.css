@@ -39,6 +39,7 @@ a:hover {
 html {
     scroll-behavior: smooth;
     overflow-y: scroll;
+    scroll-snap-type: mandatory;
 }
 
 #section1 {
