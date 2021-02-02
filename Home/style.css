@@ -51,14 +51,14 @@ html {
 #section2 {
     height: 800px;
     display: inline-block;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 #section3 {
     height: 800px;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 #section4 {
