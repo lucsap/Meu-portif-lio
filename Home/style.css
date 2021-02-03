@@ -1,8 +1,19 @@
+/*
+margin -> configuração externa ao objeto
+padding -> configuração interna ao objeto
+*/
+
 body {
     font-family: arial;
     background-size: 100%;
     background-color: black;
     color: white;
+    text-align: justify;
+}
+
+div#interface {
+    width: 1100px;
+    margin: -10px auto 20px auto;
 }
 
 nav#menu {
@@ -42,39 +53,48 @@ html {
     scroll-snap-type: mandatory;
 }
 
-#section1 {
+h1 {
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+div#section1 {
     height: 800px;
     display: inline-block;
     width: 100%;
 }
 
-#section2 {
+div#section2 {
     height: 800px;
     display: inline-block;
     width: 100%;    
 }
 
-#section3 {
+div#section3 {
     height: 800px;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 
-#section4 {
+/*
+div#section4 {
     height: 800px;
     display: inline-block;
     width: 100%;
 }
+*/
 
-#section5 {
-    height: 800px;
+div#section5 {
+    height: 663px;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
-h1 {
-    margin: 50px;
-    padding: 0;
+footer#rodape {
+    clear: both;
+    font-size: 20px;
     text-align: center;
 }
