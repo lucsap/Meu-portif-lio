@@ -73,6 +73,25 @@ div#section1 {
     width: 100%;
 }
 
+section#corpo {
+    width: 30vw;
+    display: block;
+    float: left;
+}
+
+aside#lateral {
+    width: 60%;
+    display: block;
+    float: right;
+}
+
+img#image {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 700px;
+    margin: 4%;
+}
+
 div#section2 {
     height: 100vh;
     display: inline-block;
