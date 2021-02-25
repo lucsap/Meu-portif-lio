@@ -27,6 +27,7 @@ header#menu {
     padding: 1.0rem;
     text-align: right;
     position: fixed;
+    background-color: rgba(00, 00, 00, 0.6);
     width: 70%;
     max-width: 98.0rem;
     top: 0.0rem;
@@ -115,7 +116,7 @@ div#section4 {
 */
 
 div#section5 {
-    height: 66.3rem;
+    height: 61.0rem;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -166,6 +167,17 @@ footer#rodape {
         font-size: 6.2rem;
     }
 
+    section#corpo {
+        width: 80vw;
+        display: block;
+        float: left;
+    }
+
+    aside#lateral {
+        width: 83vw;
+        display: block;
+        float: right;
+    }    
     footer#rodape {
         font-size: 4.0rem;
     }
@@ -204,6 +216,23 @@ footer#rodape {
 
     h2 {
         font-size: 6.2rem;
+    }
+
+    section#corpo {
+        width: 100%;
+        display: block;
+        float: left;
+    }
+
+    aside#lateral {
+        width: 78vw;
+        display: block;
+        float: right;
+    }
+
+    img#image {
+        background-size: 100%;
+        width: 600px;
     }
 
     footer#rodape {
