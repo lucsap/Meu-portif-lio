@@ -133,11 +133,41 @@ footer#rodape {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     html {
-        font-size: 50%;
+        font-size: 25%;
     }
 
     body {
-        font-size: 1.6rem;
+        font-size: 5.3rem;
+    }
+
+    header#menu {
+        position: fixed;
+        text-align: center;
+        background-color: rgba(00, 00, 00, 0.6);
+        width: 100%;
+        max-width: 220.0rem;
+        font-size: 5.4rem;
+        left: 0%;
+    }
+
+    ul {
+        padding: 12px 0px;
+    }
+
+    a {
+        padding: 3.5px;
+    }
+
+    h1 {
+        margin-top: 75px;
+    }
+
+    h2 {
+        font-size: 6.2rem;
+    }
+
+    footer#rodape {
+        font-size: 4.0rem;
     }
 }
 
@@ -153,7 +183,19 @@ footer#rodape {
     header#menu {
         position: fixed;
         text-align: center;
-        width: 70%;
+        background-color: rgba(00, 00, 00, 0.6);
+        width: 100%;
+        max-width: 220.0rem;
+        font-size: 5.4rem;
+        left: 0%;
+    }
+
+    ul {
+        padding: 12px 0px;
+    }
+
+    a {
+        padding: 3.5px;
     }
 
     h1 {
@@ -163,8 +205,6 @@ footer#rodape {
     h2 {
         font-size: 6.2rem;
     }
-
-
 
     footer#rodape {
         font-size: 4.0rem;
