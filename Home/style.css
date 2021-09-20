@@ -3,8 +3,9 @@ margin -> configuração externa ao objeto
 padding -> configuração interna ao objeto
 */
 
+/* a cada 1rem será considerada 10px */
+
 html {
-    /* a cada 1rem será considerada 10px */
     font-size: 62.5%;
 }
 
@@ -23,7 +24,6 @@ div#interface {
 }
 
 header#menu {
-    /*background-color: transparent;*/
     padding: 1.0rem;
     text-align: right;
     position: fixed;
@@ -45,7 +45,7 @@ li {
 }
 
 a {
-    padding: 2px 15px;
+    padding: 0.5rem 1rem;
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -62,7 +62,7 @@ html {
 }
 
 h1 {
-    margin: 5.0rem;
+    margin: 5rem;
     padding: 0;
     text-align: center;
 }
@@ -84,18 +84,16 @@ div#section3 {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin-left: -4px;
+    justify-content: center;
 }
 
-/*
-div#section4 {
+/* div#sectionX {
     height: 100vh;
     display: inline-block;
     width: 100%;
-}
-*/
+} */
 
-div#section5 {
+div#section4 {
     height: 66.3rem;
     display: inline-block;
     width: 100%;
@@ -108,9 +106,9 @@ footer#rodape {
     text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
 
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     html {
@@ -132,19 +130,27 @@ footer#rodape {
     }
 
     ul {
-        padding: 12px 0px;
+        padding: 3rem 0rem;
     }
 
     a {
-        padding: 3.5px;
+        padding: 0.1rem;
     }
 
     h1 {
-        margin-top: 75px;
+        margin-top: 1.5em;
     }
 
     h2 {
         font-size: 6.2rem;
+    }
+
+    div#section3 {
+        height: 100rem;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
     }
 
     footer#rodape {
@@ -172,19 +178,27 @@ footer#rodape {
     }
 
     ul {
-        padding: 12px 0px;
+        padding: 3rem 0rem;
     }
 
     a {
-        padding: 3.5px;
+        padding: 0.1rem;
     }
 
     h1 {
-        margin-top: 75px;
+        margin-top: 1.5em;
     }
 
     h2 {
         font-size: 6.2rem;
+    }
+
+    div#section3 {
+        height: 100rem;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
     }
 
     footer#rodape {
